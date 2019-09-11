@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.9" client="administrator" method="upgrade">
+	<name>mod_adminnotes</name>
+	<author>JG Sanders</author>
+	<creationDate>August 2019</creationDate>
+	<copyright>Copyright (C) 2019. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>Author email</authorEmail>
+	<authorUrl>Auther website</authorUrl>
+	<version>0.1.2</version>
+	<description>MOD_ADMINNOTES_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_adminnotes">mod_adminnotes.php</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_adminnotes.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_adminnotes.sys.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.mod_adminnotes.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.mod_adminnotes.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="notes"
+					type="editor"
+					label="MOD_ADMINNOTES_FIELD_NOTES_LABEL"
+					description="MOD_ADMINNOTES_FIELD_NOTES_DESC"
+				 	class="inputbox"
+					filter="JComponentHelper::filterText"
+					buttons="true"
+					hide="readmore,pagebreak,module,contact"
+					>
+					<default><![CDATA[
+						<h3>To Do List</h3>
+						<ol>
+						<li>This is example text.</li>
+						<li>......</li>
+						<li>......</li>
+						</ol>
+						<hr />
+						<h3>Most Recent Changes</h3>
+						<ol>
+						<li>This is example text.</li>
+						<li>......</li>
+						<li>......</li>
+						</ol>
+					]]></default>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+					rows="3"
+				/>
+
+				<field
+					name="automatic_title"
+					type="radio"
+					label="COM_MODULES_FIELD_AUTOMATIC_TITLE_LABEL"
+					description="COM_MODULES_FIELD_AUTOMATIC_TITLE_DESC"
+					class="btn-group btn-group-yesno"
+					default="0"
+					filter="integer"
+					>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="Admin Notes Updates">https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/update.xml</server>
+	</updateservers>
+</extension>
