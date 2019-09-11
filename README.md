@@ -48,11 +48,11 @@
 * English
 * Dutch
 
-### CREDITS ###
+### CREDITS + REFERENCE ###
 
 * On the forum of [JoomlaCommunity.nl](https://JoomlaCommunity.nl) a question was "How to make a note in the Joomla backend" ("Notitie maken in Joomla backend"). That is how the idea arose to build a simple module for it.
-* [Forum JoomlaCommunity.nl](https://www.joomlacommunity.nl/forum/3rd-party-extensies/notitie-maken-in-joomla-backend) 
-* [joomla.stackexchange.com](https://joomla.stackexchange.com/questions/18393/take-notes-in-backend) 
+* Reference: [Forum JoomlaCommunity.nl](https://www.joomlacommunity.nl/forum/3rd-party-extensies/notitie-maken-in-joomla-backend) 
+* Reference: [joomla.stackexchange.com](https://joomla.stackexchange.com/questions/18393/take-notes-in-backend) 
 * Please test this module. Ideas for improvement are welcome.
 
 ### VERSION + USE ###
