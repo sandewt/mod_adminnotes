@@ -23,7 +23,8 @@
 
 ### INSTALLATION ###
 
-* Download the master branche source code.
+* Download the master branche source code: [mod_adminnotes/zip/master](
+https://codeload.github.com/sandewt/mod_adminnotes/zip/master) 
 * Go to the Joomla! Extension Manager:
 * Extensions > Manage > Install > [Upload & Install] 
 * Extensions > Manage > Modules (Administrator) > [Configure module]
@@ -48,14 +49,16 @@
 * English
 * Dutch
 
-### CREDITS ###
+### CREDITS + REFERENCE ###
 
 * On the forum of [JoomlaCommunity.nl](https://JoomlaCommunity.nl) a question was "How to make a note in the Joomla backend" ("Notitie maken in Joomla backend"). That is how the idea arose to build a simple module for it.
+* Reference: [joomlacommunity.nl/forum](https://www.joomlacommunity.nl/forum/3rd-party-extensies/notitie-maken-in-joomla-backend) 
+* Reference: [joomla.stackexchange.com](https://joomla.stackexchange.com/questions/18393/take-notes-in-backend) 
 * Please test this module. Ideas for improvement are welcome.
 
 ### VERSION + USE ###
 
-* Latest version: 0.1.2 (beta)
+* Latest version: 0.1.3 (beta)
 * Type: module (administrator)
 * Since Joomla! 3.9
 * License: GNU General Public License version 2 or later; see LICENSE.txt.
@@ -63,7 +66,7 @@
 
 ### CHANGELOG ###
 
-* Version: 0.1.0 - 0.1.2
+* Version: 0.1.0 - 0.1.3
 * Comment: beta versions
 * Version: 0.0.1 - 0.0.6
 * Comment: first versions ever
