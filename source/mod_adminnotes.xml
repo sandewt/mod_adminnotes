@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>Author email</authorEmail>
 	<authorUrl>Auther website</authorUrl>
-	<version>0.1.3</version>
+	<version>0.1.4</version>
 	<description>MOD_ADMINNOTES_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_adminnotes">mod_adminnotes.php</filename>
