@@ -10,16 +10,18 @@
 // No direct access.
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Factory as JFactory;
-use Joomla\CMS\HTML\HTMLHelper as JHtml;
-use Joomla\CMS\Language\Text as JText;
-use Joomla\CMS\Router\Route as JRoute;
+use Joomla\CMS\Factory;
+use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Router\Route;
+use Joomla\CMS\Uri\Uri;
 
-$user = JFactory::getuser();
+$user = Factory::getuser();
 
 if ($user->authorise('core.manage'))
 {
-	$link = 'index.php?option=com_modules&task=module.edit&id=' . (int) $module->id;
+	$uri  = Uri::getInstance();
+	$link = 'index.php?option=com_modules&task=module.edit&id=' . (int) $module->id . '&return=' . base64_encode($uri);
 }
 else
 {
@@ -31,7 +33,7 @@ else
 <div>
 	<?php if (!empty($link)) : ?>
 		<div class="alert alert-info">
-			<a class="btn btn-primary" href="<?php echo JRoute::_($link, true); ?>"><?php echo JText::_('MOD_ADMINNOTES_LINK_MODULE_EDIT'); ?></a>
+			<a class="btn btn-primary" href="<?php echo Route::_($link, true); ?>"><?php echo Text::_('MOD_ADMINNOTES_LINK_MODULE_EDIT'); ?></a>
 		</div>
 	<?php endif; ?>
 	<?php if (!empty($list)) : ?>
@@ -40,11 +42,11 @@ else
 		</div>
 	<?php else : ?>
 		<div class="alert alert-no-items">
-			<?php echo JText::_('JGLOBAL_NO_MATCHING_RESULTS'); ?>
+			<?php echo Text::_('JGLOBAL_NO_MATCHING_RESULTS'); ?>
 		</div>
 	<?php endif; ?>
 	<div>
-		<br /><span class="icon-calendar" aria-hidden="true"></span><?php echo JHtml::_('date', '', JText::_('DATE_FORMAT_LC2')); ?>
+		<br /><span class="icon-calendar" aria-hidden="true"></span><?php echo HTMLHelper::_('date', '', Text::_('DATE_FORMAT_LC2')); ?>
 	</div>
 </div>
 <!-- End notes -->
