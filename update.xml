@@ -7,7 +7,7 @@
 		<type>module</type>
 		<folder></folder>
 		<client>administrator</client>
-		<version>0.1.3</version>
+		<version>0.1.4</version>
 		<infourl title="Administrator Notes">https://github.com/sandewt/mod_adminnotes</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/sandewt/mod_adminnotes/archive/master.zip</downloadurl>
