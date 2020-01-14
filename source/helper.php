@@ -26,7 +26,7 @@ abstract class modAdminNotes
 	 */
 	public static function getList(&$params)
 	{
-		$content = $params->get('notes');
+		$content = (string) $params->get('notes');
 
 		// Replace 'images/' to '../images/' when using an image from /images in backend
 		$content = preg_replace('*src\=\"(?!administrator\/)images/*', 'src="../images/', $content);
