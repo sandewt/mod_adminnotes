@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
 /**
  * Helper for mod_adminnotes
  *
- * @since  3.9.0
+ * @since  1.0.0
  */
 abstract class modAdminNotes
 {
