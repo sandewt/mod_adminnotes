@@ -3,7 +3,7 @@
  * @package     Joomla.Administrator
  * @subpackage  mod_adminnotes
  *
- * @copyright   Copyright (C) 2019. All rights reserved.
+ * @copyright   Copyright (C) 2019 - 2020. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
