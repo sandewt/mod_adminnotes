@@ -24,7 +24,7 @@ abstract class modAdminNotes
 	 *
 	 * @return  string
 	 */
-	public static function getList(&$params)
+	public static function getList(&$params): string
 	{
 		$content = (string) $params->get('notes');
 
