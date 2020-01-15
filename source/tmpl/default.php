@@ -3,7 +3,7 @@
  * @package     Joomla.Administrator
  * @subpackage  mod_adminnotes
  *
- * @copyright   Copyright (C) 2019. All rights reserved.
+ * @copyright   Copyright (C) 2019 - 2020. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -16,12 +16,13 @@ use Joomla\CMS\Language\Text;
 use Joomla\CMS\Router\Route;
 use Joomla\CMS\Uri\Uri;
 
-$user = Factory::getuser();
+$user     = Factory::getuser();
+$moduleId = isset($module->id) ? $module->id : '';
 
 if ($user->authorise('core.manage'))
 {
 	$uri  = Uri::getInstance();
-	$link = 'index.php?option=com_modules&task=module.edit&id=' . (int) $module->id . '&return=' . base64_encode($uri);
+	$link = 'index.php?option=com_modules&task=module.edit&id=' . (int) $moduleId . '&return=' . base64_encode($uri);
 }
 else
 {

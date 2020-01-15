@@ -3,7 +3,7 @@
  * @package     Joomla.Administrator
  * @subpackage  mod_adminnotes
  *
- * @copyright   Copyright (C) 2019. All rights reserved.
+ * @copyright   Copyright (C) 2019 - 2020. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
 /**
  * Helper for mod_adminnotes
  *
- * @since  3.9.0
+ * @since  1.0.0
  */
 abstract class modAdminNotes
 {
@@ -24,9 +24,9 @@ abstract class modAdminNotes
 	 *
 	 * @return  string
 	 */
-	public static function getList(&$params)
+	public static function getList(&$params): string
 	{
-		$content = $params->get('notes');
+		$content = (string) $params->get('notes');
 
 		// Replace 'images/' to '../images/' when using an image from /images in backend
 		$content = preg_replace('*src\=\"(?!administrator\/)images/*', 'src="../images/', $content);

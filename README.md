@@ -16,8 +16,8 @@
 * To make administrator notes, e.g.: a To Do List.
 * Button for direct editing.
 * Sample text as default in editor.
-* To make links to back-end menu and article items that are often used.
-* To make links to frond-end items (../index.php).
+* To make links to backend menu and article items that are often used.
+* To make links to frondend items (../index.php).
 * For documentation purposes, e.g.: define large photos are x by y px, thumbnails are x by y px large.
 * Uses Joomla! Update System.
 
@@ -58,7 +58,7 @@ https://codeload.github.com/sandewt/mod_adminnotes/zip/master)
 
 ### VERSION + USE ###
 
-* Latest version: 0.1.4 (beta)
+* Latest version: 0.1.5 (beta)
 * Type: module (administrator)
 * Since Joomla! 3.9
 * License: GNU General Public License version 2 or later; see LICENSE.txt.
@@ -66,7 +66,7 @@ https://codeload.github.com/sandewt/mod_adminnotes/zip/master)
 
 ### CHANGELOG ###
 
-* Version: 0.1.0 - 0.1.3
+* Version: 0.1.0 - 0.1.4
 * Comment: beta versions
 * Version: 0.0.1 - 0.0.6
 * Comment: first versions ever
