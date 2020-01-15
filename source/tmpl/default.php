@@ -18,9 +18,8 @@ use Joomla\CMS\Uri\Uri;
 
 $user     = Factory::getuser();
 $moduleId = isset($module->id) ? $module->id : '';
-$asset    = 'com_content.module.' . (int) $moduleId;
 
-if ($user->authorise('core.edit', $asset))
+if ($user->authorise('core.manage'))
 {
 	$uri  = Uri::getInstance();
 	$link = 'index.php?option=com_modules&task=module.edit&id=' . (int) $moduleId . '&return=' . base64_encode($uri);
