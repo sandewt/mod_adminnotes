@@ -17,7 +17,7 @@
 * Button for direct editing.
 * Sample text as default in editor.
 * To make links to backend menu and article items that are often used.
-* To make links to frondend items (../index.php).
+* To make links to frontend items (../index.php).
 * For documentation purposes, e.g.: define large photos are x by y px, thumbnails are x by y px large.
 * Uses Joomla! Update System.
 
