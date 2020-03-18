@@ -28,10 +28,15 @@ abstract class modAdminNotes
 	{
 		$content = (string) $params->get('notes');
 
-		// Replace 'images/' to '../images/' when using an image from /images in backend
-		$content = preg_replace('*src\=\"(?!administrator\/)images/*', 'src="../images/', $content);
-		// Replace 'media/' to '../media/' when using emoticons from /media in backend
-		$content = preg_replace('*src\=\"(?!administrator\/)media/*', 'src="../media/', $content);
+		$replacement = array(
+			'*src\=\"(?!administrator\/)images/*' => 'src="../images/',
+			'*src\=\"(?!administrator\/)media/*' => 'src="../media/'
+		);
+
+		foreach ($replacement as $key => $value)
+		{
+			$content = preg_replace($key, $value, $content);
+		}
 
 		return (string) $content;
 	}
