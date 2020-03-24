@@ -37,15 +37,17 @@ else
 			<a class="btn btn-primary" href="<?php echo Route::_($link, true); ?>"><?php echo Text::_('MOD_ADMINNOTES_LINK_MODULE_EDIT'); ?></a>
 		</div>
 	<?php endif; ?>
-	<?php if (!empty($list)) : ?>
-		<div>
-			<?php echo $list; ?>
-		</div>
-	<?php else : ?>
-		<div class="alert alert-no-items">
-			<?php echo Text::_('JGLOBAL_NO_MATCHING_RESULTS'); ?>
-		</div>
-	<?php endif; ?>
+	<div class="alert alert-info">
+		<?php if (!empty($list)) : ?>
+			<div>
+				<?php echo $list; ?>
+			</div>
+		<?php else : ?>
+			<div class="alert alert-no-items">
+				<?php echo Text::_('JGLOBAL_NO_MATCHING_RESULTS'); ?>
+			</div>
+		<?php endif; ?>
+	</div>
 	<div>
 		<br /><span class="icon-calendar" aria-hidden="true"></span><?php echo HTMLHelper::_('date', '', Text::_('DATE_FORMAT_LC2')); ?>
 	</div>
