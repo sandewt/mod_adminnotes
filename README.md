@@ -58,7 +58,7 @@ https://codeload.github.com/sandewt/mod_adminnotes/zip/master)
 
 ### VERSION + USE ###
 
-* Latest version: 0.1.7 (beta)
+* Latest version: 0.1.8 (beta)
 * Type: module (administrator)
 * Since Joomla! 3.9
 * License: GNU General Public License version 2 or later; see LICENSE.txt.
@@ -66,7 +66,7 @@ https://codeload.github.com/sandewt/mod_adminnotes/zip/master)
 
 ### CHANGELOG ###
 
-* Version: 0.1.0 - 0.1.6
+* Version: 0.1.0 - 0.1.7
 * Comment: beta versions
 * Version: 0.0.1 - 0.0.6
 * Comment: first versions ever
