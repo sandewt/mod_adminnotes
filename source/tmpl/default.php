@@ -49,7 +49,7 @@ else
 		<?php endif; ?>
 	</div>
 	<div>
-		<br /><span class="icon-calendar" aria-hidden="true"></span><?php echo HTMLHelper::_('date', '', Text::_('DATE_FORMAT_LC2')); ?>
+		<span class="icon-calendar" aria-hidden="true"></span><?php echo HTMLHelper::_('date', '', Text::_('DATE_FORMAT_LC2')); ?>
 	</div>
 </div>
 <!-- End notes -->
