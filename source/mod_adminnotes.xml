@@ -13,14 +13,9 @@
 	<files>
 		<filename module="mod_adminnotes">mod_adminnotes.php</filename>
 		<filename>helper.php</filename>
+		<folder>language</folder>
 		<folder>tmpl</folder>
-	</files>
-	<languages folder="language">
-		<language tag="en-GB">en-GB/en-GB.mod_adminnotes.ini</language>
-		<language tag="en-GB">en-GB/en-GB.mod_adminnotes.sys.ini</language>
-		<language tag="nl-NL">nl-NL/nl-NL.mod_adminnotes.ini</language>
-		<language tag="nl-NL">nl-NL/nl-NL.mod_adminnotes.sys.ini</language>
-	</languages>
+	</files>	
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
