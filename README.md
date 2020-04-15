@@ -7,7 +7,7 @@
 
 ### DESCRIPTION ###
 
-**This module shows in the Control Panel the website administrator notes. After installation, go to: Extensions -&gt; Modules, click on "Administrator Notes" and set the Access level. The Position is cpanel.**
+**This module shows in the Control Panel the website administrator notes. After installation, go to: Extensions -&gt; Modules. Click on "Administrator Notes". Publish and save the module.**
 
 **Click on the button "Edit Notes" in the Control Panel to make notes. Change the example text as desired.**
 
