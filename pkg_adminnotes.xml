@@ -17,4 +17,7 @@
 	<files>
 		<file type="module" id="mod_adminnotes" client="administrator">mod_adminnotes</file>
 	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="Admin Notes Updates">https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/update.xml</server>
+	</updateservers>
 </extension>
