@@ -21,6 +21,11 @@
 * For documentation purposes, e.g.: define large photos are x by y px, thumbnails are x by y px large.
 * Uses Joomla! Update System.
 
+### JOOMLA! VERSION ###
+
+* Since Joomla! 3.9
+* Type: module (administrator)
+
 ### INSTALLATION ###
 
 * Download the master branche source code: [mod_adminnotes/releases](
@@ -56,9 +61,7 @@ https://github.com/sandewt/mod_adminnotes/releases) (assets)
 * Reference: [joomla.stackexchange.com](https://joomla.stackexchange.com/questions/18393/take-notes-in-backend) 
 * Please test this module. Ideas for improvement are welcome.
 
-### JOOMLA! VERSION + USE ###
+### USE ###
 
-* Since Joomla! 3.9
-* Type: module (administrator)
 * License: GNU General Public License version 2 or later; see LICENSE.txt.
 * This program is distributed, WITHOUT ANY WARRANTY, in the hope that it will be useful.
