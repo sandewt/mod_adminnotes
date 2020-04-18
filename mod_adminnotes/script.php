@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 use Joomla\CMS\Factory;
 
 /**
- * Class mod_adminnotesInstallerScript
+ * InstallerScript for mod_adminnotes
  *
  * @since  April 2020
  */
