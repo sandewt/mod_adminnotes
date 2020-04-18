@@ -12,23 +12,23 @@ defined('_JEXEC') or die;
 use Joomla\CMS\Factory;
 
 /**
- * Class ModuleAdminNotesInstallerScript
+ * Class mod_adminnotesInstallerScript
  *
  * @since  April 2020
  */
 class mod_adminnotesInstallerScript
 {
 	/**
-     * Runs right after any installation action is performed on the module.
-     *
-     * @param  string    $type   - Type of PostFlight action. Possible values are:
-     *                           - * install
-     *                           - * update
-     *                           - * discover_install
-     * @param   stdClass $parent - Parent object calling object.
-     *
-     * @return void
-     */
+	 * Runs right after any installation action is performed on the module.
+	 *
+	 * @param  string    $type   - Type of PostFlight action. Possible values are:
+	 *                           - * install
+	 *                           - * update
+	 *                           - * discover_install
+	 * @param   stdClass $parent - Parent object calling object.
+	 *
+	 * @return void
+	 */
 	public function postflight($type, $parent)
 	{
 		$db = Factory::getDbo();
