@@ -2,7 +2,7 @@
 <extension type="package" version="3.9" method="upgrade">
 	<name>Administrator Notes</name> 
 	<packagename>adminnotes</packagename>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<creationDate>April 2020</creationDate>
 	<author>JG Sanders</author>
 	<authorEmail>Author email</authorEmail>
@@ -18,7 +18,6 @@
 		<file type="module" id="mod_adminnotes" client="administrator">mod_adminnotes</file>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Admin Notes Updates">https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/update.xml</server>
-		<server type="extension" priority="1" name="Admin Notes Updates">https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/pkg_adminnotes.xml</server>
+		<server type="extension" priority="1" name="Admin Notes Updates">https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/update.xml</server>
 	</updateservers>
 </extension>
