@@ -1,3 +1,3 @@
 <extensionset name="AdminNotes extension set" description="AdminNotes extension set">
-	<extension name="AdminNotes Package" element="pkg_adminnotes.xml" type="package" version="0.2.1" detailsurl="https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/update/pkg_adminnotes.xml"/>
+	<extension name="AdminNotes" element="adminnotes" type="file" version="0.2.1" detailsurl="https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/update/extension.xml"/>
 </extensionset>
