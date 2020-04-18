@@ -23,8 +23,8 @@
 
 ### INSTALLATION ###
 
-* Download the master branche source code: [mod_adminnotes/zip/master](
-https://codeload.github.com/sandewt/mod_adminnotes/zip/master) 
+* Download the master branche source code: [mod_adminnotes/releases](
+https://github.com/sandewt/mod_adminnotes/releases) 
 * Go to the Joomla! Extension Manager:
 * Extensions > Manage > Install > [Upload & Install] 
 * Extensions > Manage > Modules (Administrator) > [Configure module]
