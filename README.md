@@ -7,7 +7,7 @@
 
 ### DESCRIPTION ###
 
-**This module shows in the Control Panel the website administrator notes. After installation, go to: Extensions -&gt; Modules, click on "Administrator Notes" and set the Access level. The Position is cpanel.**
+**This module shows in the Control Panel the website administrator notes. After installation, go to: Extensions -&gt; Modules. Click on "Administrator Notes". Publish and save the module.**
 
 **Click on the button "Edit Notes" in the Control Panel to make notes. Change the example text as desired.**
 
@@ -21,10 +21,15 @@
 * For documentation purposes, e.g.: define large photos are x by y px, thumbnails are x by y px large.
 * Uses Joomla! Update System.
 
+### JOOMLA! VERSION ###
+
+* Since Joomla! 3.9
+* Type: module (administrator)
+
 ### INSTALLATION ###
 
-* Download the master branche source code: [mod_adminnotes/zip/master](
-https://codeload.github.com/sandewt/mod_adminnotes/zip/master) 
+* Download the source code (assets): [mod_adminnotes/releases](
+https://github.com/sandewt/mod_adminnotes/releases)
 * Go to the Joomla! Extension Manager:
 * Extensions > Manage > Install > [Upload & Install] 
 * Extensions > Manage > Modules (Administrator) > [Configure module]
@@ -56,17 +61,7 @@ https://codeload.github.com/sandewt/mod_adminnotes/zip/master)
 * Reference: [joomla.stackexchange.com](https://joomla.stackexchange.com/questions/18393/take-notes-in-backend) 
 * Please test this module. Ideas for improvement are welcome.
 
-### VERSION + USE ###
+### USE ###
 
-* Latest version: 0.1.8 (beta)
-* Type: module (administrator)
-* Since Joomla! 3.9
 * License: GNU General Public License version 2 or later; see LICENSE.txt.
 * This program is distributed, WITHOUT ANY WARRANTY, in the hope that it will be useful.
-
-### CHANGELOG ###
-
-* Version: 0.1.0 - 0.1.7
-* Comment: beta versions
-* Version: 0.0.1 - 0.0.6
-* Comment: first versions ever
