@@ -2,7 +2,7 @@
 <extension type="package" version="3.9" method="upgrade">
 	<name>Administrator Notes</name> 
 	<packagename>adminnotes</packagename>
-	<version>0.2.0</version>
+	<version>0.2.1</version>
 	<creationDate>April 2020</creationDate>
 	<author>JG Sanders</author>
 	<authorEmail>Author email</authorEmail>
