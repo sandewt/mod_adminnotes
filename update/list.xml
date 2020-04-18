@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extensionset name="AdminNotes extension set" description="AdminNotes extension set">
+	<extension name="AdminNotes Package" element="pkg_adminnotes.xml" type="package" version="0.2.1" detailsurl="https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/update/pkg_adminnotes.xml"/>
+</extensionset>
