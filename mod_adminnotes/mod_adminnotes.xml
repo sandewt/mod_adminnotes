@@ -81,5 +81,10 @@
 				</field>
 			</fieldset>
 		</fields>
-	</config>	
+	</config>
+	<!--
+	<updateservers>
+		<server type="extension" priority="1" name="Admin Notes Updates">https://raw.githubusercontent.com/sandewt/mod_adminnotes/master/update.xml</server>
+	</updateservers>
+	-->
 </extension>
