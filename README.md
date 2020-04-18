@@ -56,17 +56,9 @@ https://github.com/sandewt/mod_adminnotes/releases)
 * Reference: [joomla.stackexchange.com](https://joomla.stackexchange.com/questions/18393/take-notes-in-backend) 
 * Please test this module. Ideas for improvement are welcome.
 
-### VERSION + USE ###
+### JOOMLA! VERSION + USE ###
 
-* Latest version: 0.2.0 (beta)
-* Type: module (administrator)
 * Since Joomla! 3.9
+* Type: module (administrator)
 * License: GNU General Public License version 2 or later; see LICENSE.txt.
 * This program is distributed, WITHOUT ANY WARRANTY, in the hope that it will be useful.
-
-### CHANGELOG ###
-
-* Version: 0.1.0 - 0.1.8
-* Comment: beta versions
-* Version: 0.0.1 - 0.0.6
-* Comment: first versions ever
