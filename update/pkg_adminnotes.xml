@@ -2,7 +2,7 @@
 <updates>
 	<update>
 		<name>Administrator Notes</name>
-		<description>The module shows administrator notes in the control panel.</description>
+		<description><![CDATA[The module shows administrator notes in the control panel.]]></description>
 		<element>mod_adminnotes</element>
 		<type>module</type>
 		<folder></folder>
